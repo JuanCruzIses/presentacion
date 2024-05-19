@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presentación - Ises J.C.</title>
+    <link rel="shortcut icon" href="/images/brandImage.png" />
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+<body>
+    <header>
+        <div class="opacity"></div>
+        <img src="/images/brandImage.png" alt="imagen de marca" class="brandImage">
+        <nav class="navBarDesktop">
+            <ul>
+                <li class="navButton"><a href="https://juancruzises-portfolio.vercel.app/" target="_blank">Portfolio</a></li>
+                <li class="navButton">
+                    <a href="/resources/isesCV.pdf" download="Ises-CV.pdf">Curriculum</a>
+                </li>
+                <li><button id="languageButton" class="navButton" onclick="changeLanguage()">En</button></li>
+                <li><button id="lightButton" class="navButton" onclick="lightMode()"><span class="material-symbols-outlined">light_mode</span></button></li>
+            </ul>
+        </nav>
+        <div class="containerButtonMobile">
+            <button class="buttonMobile" id="burgerButton" onclick="showMobileButtons()">
+                <span class="material-symbols-outlined">menu</span>
+            </button>
+            <nav class="navBarMobile">
+                <ul class="ulMobile">
+                    <li class="opacity"></li>
+                    <li class="navButton"><a href="https://juancruzises-portfolio.vercel.app/" target="_blank">Portfolio</a></li>
+                    <li class="navButton">
+                        <a href="/resources/isesCV.pdf" download="Ises-CV.pdf">Curriculum</a>
+                    </li>
+                    <li><button id="languageButton" class="navButton" onclick="changeLanguage()">English</button></li>
+                    <li><button id="lightButton" class="navButton" onclick="lightMode()"><span class="material-symbols-outlined">light_mode</span></button></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="heroText">
+                <h1>Juan Cruz Ises</h1>
+                <h2>Frontend Developer</h2>
+                <p class="presentationText">Soy un Desarrollador Web Jr con enfoque en front end y conocimientos básicos de back end. Actualmente me encuentro trabajando en el campo educativo con el objetivo de formar futuros talentos digitales, desempeñandome en la empresa Digital House y en el ministerio de Educación de la CABA. <br>Además, continuo en constante formación, perfeccionando mis habilidades mediante el desarrollo de proyectos, la realización de cursos y afrontando nuevos desafíos que contribuyan a mi crecimiento profesional.</p>
+            </div>
+            <div class="heroImage">
+                <img src="/images/profileImg.jpg" alt="imagen perfil" class="profileImage">
+            </div>
+            <div class="containerHeroButton">
+                <button class="heroButton" id="heroButton">
+                    <a href="mailto: juancruzises@gmail.com">Contáctame</a>
+                </button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <img src="/images/brandImage.png" alt="imagen de marca ">
+    </footer>
+    <script src="/js/script.js"></script>
+</body>
+</html>
